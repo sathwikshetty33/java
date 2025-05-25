@@ -1,11 +1,9 @@
 package com.example.demo;
-
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.Cookie;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -51,3 +49,7 @@ public class VisitCounterServlet extends HttpServlet {
         out.println("</body></html>");
     }
 }
+
+
+// mvn clean install
+// mvn spring-boot:run
