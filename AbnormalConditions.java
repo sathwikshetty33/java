@@ -58,8 +58,6 @@ private static void generateClassCastException(){
 private static void generateFileNotFoundException()throws FileNotFoundException{
     File file = new File("does_not_exist.txt");
             Scanner scanner = new Scanner(file);
-            while (scanner.hasNextLine()) {
-                continue;
-            }
+
 }
 }
